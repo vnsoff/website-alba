@@ -1,34 +1,16 @@
 import React from 'react';
 import { ImageBackground, StyleSheet, Text, View } from 'react-native';
+import tw from 'tailwind-rn';
 
 export default function App() {
-  const image = { src: "website-restaurant\assets\header-bg.png" };
+  const image = require('./assets/header-bg.png'); // Assuming the image is located in the assets folder
 
   return (
-    <View style={styles.container}>
-      <ImageBackground source={image} style={styles.image}></ImageBackground>      
-      <Text style={styles.mastheadSubheading}>Discover Italy at Ristorante Alba</Text>
-      <Text style={styles.mastheadHeading}>Benvenuti alla Nostra Casa</Text>
+    <View style={tw`flex-1 items-center justify-center`}>
+      <ImageBackground source={image} style={tw`flex-1 w-full h-full`}>
+        <Text style={tw`text-white font-bold text-lg mb-5`}>Discover Italy at Ristorante Alba</Text>
+        <Text style={tw`text-white font-bold text-xl mb-8`}>Benvenuti alla Nostra Casa</Text>
+      </ImageBackground>
     </View>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  mastheadSubheading: {
-    fontSize: 20,
-    fontWeight: 'bold',
-    marginBottom: 10,
-  },
-  mastheadHeading: {
-    fontSize: 24,
-    fontWeight: 'bold',
-    marginBottom: 20,
-  },
-  // Add other styles for different sections or components here
-});
