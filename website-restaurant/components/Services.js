@@ -14,31 +14,37 @@ function Services() {
     </div>
     <div className="container mt-20 my-20 mx-auto">
         <div className="grid grid-cols-3 gap-2 text-titleColor ">
-            <div className="flex justify-center p-6">
+            <div className="flex justify-center p-6 transform transition-transform hover:scale-115">
                 <DeliveryIcon/>
             </div>
-            <div className="flex justify-center p-6">
+            <div className="flex justify-center p-6 transform transition-transform hover:scale-115">
                 <DriveThruIcon/>
             </div>
-            <div className="flex justify-center p-6">
+            <div className="flex justify-center p-6 transform transition-transform hover:scale-115">
                 <ReservationIcon/>
             </div>
             <div className="flex justify-center px-10">
             <h3 className='text-2xl font-bold'>Delivery</h3>
+            <br></br>
+            <br></br>
             </div>
             <div className="flex justify-center px-10">
             <h3 className='text-2xl font-bold'>Drive-Thru</h3>
+            <br></br>
+            <br></br>
             </div>
             <div className="flex justify-center px-10">
             <h3 className='text-2xl font-bold'>Reservation</h3>
+            <br></br>
+            <br></br>
             </div>
-            <div className="flex text-md text-descColor justify-center px-10">
+            <div className="flex text-md text-descColor justify-center px-10 text-left">
             <p>Enjoy authentic flavors, delivered to your doorstep. Indulge in our carefully crafted dishes, expertly prepared with care. Experience the richness of Italian cuisine from the comfort of your home.</p>
             </div>
-            <div className="flex text-md text-descColor justify-center px-10">
+            <div className="flex text-md text-descColor justify-center px-10  text-left">
             <p>Italian feast on the go!<br></br> Experience the same authentic flavors of Ristorante Alba without leaving your car.</p>
             </div>
-            <div className="flex text-md text-descColor justify-center px-10">
+            <div className="flex text-md text-descColor justify-center px-10  text-left">
             <p>Reserve your table today for an unforgettable experience. Whether it's a romantic dinner or a gathering with loved ones, savor the finest Italian cuisine at Ristorante Alba.<br></br><br></br>
             Join us during our opening hours:<br></br>
             <strong>Tue/Fri:</strong> 18:30 - 23:30,<br></br>
