@@ -5,6 +5,8 @@ import Services from '../components/Services';
 import Options from '../components/Options';
 import TeamPage from '../components/TeamPage';
 import Footer from '../components/Footer';
+import Banner from '../components/Banner';
+import Reservation from '../components/Reservation';
 
 export default function Home() {
   return (
@@ -20,6 +22,12 @@ export default function Home() {
       </div>
       <div>
         <TeamPage />
+      </div>
+      <div>
+        <Reservation />
+      </div>      
+      <div>
+        <Banner />
       </div>
       <div>
         <Footer />
