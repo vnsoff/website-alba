@@ -3,6 +3,7 @@
 import React from 'react';
 import TeamMember from './TeamMember';
 import 'styles/tailwind.css';
+import { TwitterIcon, FacebookIcon,LinkedInIcon } from './IconComponent';
 
 const Team = ({ teamData }) => {
   return (
@@ -24,6 +25,7 @@ const Team = ({ teamData }) => {
         {teamData.map((member, index) => (
           <TeamMember key={index} name={member.name} role={member.role} imgSrc={member.imgSrc} />
         ))}
+      <TwitterIcon/>
       </div>
     </div>
   );

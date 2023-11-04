@@ -2,14 +2,20 @@
 
 import React, { useState } from 'react';
 import 'styles/tailwind.css';
-import { XIcon as XMarkIcon, MenuAlt2Icon as MenuAlt3Icon } from '@heroicons/react/outline';
-import Link from 'next/link';
+import { XIcon as XMarkIcon, MenuAlt3Icon } from '@heroicons/react/outline';
+import { useRouter } from 'next/router';
 
 const Navbar = () => {
+  const router = useRouter();
   const [isMobile, setIsMobile] = useState(false);
 
   const handleMobileMenu = () => {
     setIsMobile(!isMobile);
+  };
+
+  const navigateToSection = (path) => {
+    router.push(path);
+    setIsMobile(false); // Close mobile menu after navigation
   };
 
   return (
@@ -22,9 +28,9 @@ const Navbar = () => {
           <div className="container mx-5 lg:mx-auto flex items-center justify-between">
             <div className="flex items-center">
               {!isMobile && (
-                <a href="#page-top">
+                <button onClick={() => navigateToSection('#page-top')} aria-label="Go to top">
                   <img src="/images/header/navbar-logo.png" alt="Logo" className="h-8" />
-                </a>
+                </button>
               )}
               {isMobile ? <br /> : null}
             </div>
@@ -41,12 +47,16 @@ const Navbar = () => {
             </button>
             <div className={`text-stone-200 lg:flex lg:items-center lg:w-auto ${isMobile ? 'block' : 'hidden'}`}>
               <ul>
-                <Link className="nav-link mr-5 lg:mr-10 transform transition-transform hover:scale-105" href="/services">SERVICES</Link>
-                <Link className="nav-link mr-5 lg:mr-10 transform transition-transform hover:scale-105" href="/services">LA NOSTRA CUCINA</Link>
-                <Link className="nav-link mr-5 lg:mr-10 transform transition-transform hover:scale-105" href="/services">OUR LEGACY</Link>
-                <Link className="nav-link mr-5 lg:mr-10 transform transition-transform hover:scale-105" href="/services">SERVICES</Link>
-                <Link className="nav-link mr-5 lg:mr-10 transform transition-transform hover:scale-105" href="/services">MEET THE MONTI</Link>
-                <Link className="nav-link mr-5 lg:mr-10 transform transition-transform hover:scale-105" href="/services">RESERVATIONS</Link>
+                <li>
+                  <button className="nav-link mr-5 lg:mr-10 transform transition-transform hover:scale-105" onClick={() => navigateToSection('/services')}>
+                    SERVICES
+                  </button>
+                </li>
+                <li>
+                  <button className="nav-link mr-5 lg:mr-10 transform transition-transform hover:scale-105" onClick={() => navigateToSection('/our-cucina')}>
+                    LA NOSTRA CUCINA
+                  </button>
+                </li>
               </ul>
             </div>
           </div>
