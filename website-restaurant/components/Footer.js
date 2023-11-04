@@ -1,27 +1,25 @@
-import React from 'react'
+import React from 'react';
+import { TwitterIcon, TelegramIcon, FacebookIcon,LinkedInIcon } from './IconComponent';
+import 'styles/tailwind.css';
 
 function Footer() {
   return (
-    <main className=' bg-amber-950 h-24'>
-        <div className='flex items-center justify-between mt-10 text-white mx-96'>
-            <div>
-                <h3>
-                Footer
-                </h3>
-            </div>
-            <div>
-                <h3>
-                Footer
-                </h3>
-            </div>
-            <div>
-                <h3>
-                Footer
-                </h3>
-            </div>
+    <footer >
+      <div className='flex items-center gap-x-5 text-descColor justify-between py-6 mx-auto max-w-screen-xl'>
+        <div>
+          <h3>Footer</h3>
         </div>
-    </main>
-  )
+        <div className='flex items-center  text-descColor justify-between py-6 mx-auto max-w-screen-xl gap-x-5'>
+          <TelegramIcon/>
+          <FacebookIcon/>
+          <LinkedInIcon/>
+        </div>
+        <div>
+          <h3>Privacy Policy</h3>
+        </div>
+      </div>
+    </footer>
+  );
 }
 
-export default Footer
+export default Footer;
