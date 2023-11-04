@@ -41,22 +41,12 @@ const Navbar = () => {
             </button>
             <div className={`text-stone-200 lg:flex lg:items-center lg:w-auto ${isMobile ? 'block' : 'hidden'}`}>
               <ul>
-                <Link href="/services">SERVICES</Link>
-                <a className="nav-link mr-5 lg:mr-10" href="#services">
-                  
-                </a>
-                <a className="nav-link mr-5 lg:mr-10" href="#portfolio">
-                  LA NOSTRA CUCINA
-                </a>
-                <a className="nav-link mr-5 lg:mr-10" href="#portfolio">
-                  OUR LEGACY
-                </a>
-                <a className="nav-link mr-5 lg:mr-10" href="#portfolio">
-                  MEET THE MONTI
-                </a>
-                <a className="nav-link lg:mr-10" href="#portfolio">
-                  RESERVATIONS
-                </a>
+                <Link className="nav-link mr-5 lg:mr-10 transform transition-transform hover:scale-105" href="/services">SERVICES</Link>
+                <Link className="nav-link mr-5 lg:mr-10 transform transition-transform hover:scale-105" href="/services">LA NOSTRA CUCINA</Link>
+                <Link className="nav-link mr-5 lg:mr-10 transform transition-transform hover:scale-105" href="/services">OUR LEGACY</Link>
+                <Link className="nav-link mr-5 lg:mr-10 transform transition-transform hover:scale-105" href="/services">SERVICES</Link>
+                <Link className="nav-link mr-5 lg:mr-10 transform transition-transform hover:scale-105" href="/services">MEET THE MONTI</Link>
+                <Link className="nav-link mr-5 lg:mr-10 transform transition-transform hover:scale-105" href="/services">RESERVATIONS</Link>
               </ul>
             </div>
           </div>
