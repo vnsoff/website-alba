@@ -24,19 +24,19 @@ const ReservationIcon = () => (
 );
 
 const LinkedInIcon = () => (
-  <FontAwesomeIcon icon={faLinkedin} style={{ color: "#ffc800", fontSize: "50px" }} />
+  <FontAwesomeIcon icon={faLinkedin} style={{ color: "text-titleColor", fontSize: "25px" }} />
 );
 
 const FacebookIcon = () => (
-  <FontAwesomeIcon icon={faFacebook} style={{ color: "#ffc800", fontSize: "50px" }} />
+  <FontAwesomeIcon icon={faFacebook} style={{ color: "text-titleColor", fontSize: "25px" }} />
 );
 
 const TelegramIcon = () => (
-  <FontAwesomeIcon icon={faTelegram} style={{ color: "#ffc800", fontSize: "50px" }} />
+  <FontAwesomeIcon icon={faTelegram} style={{ color: "text-titleColor", fontSize: "25px" }} />
 );
 
 const TwitterIcon = () => (
-  <FontAwesomeIcon icon={faTwitter} style={{ color: "#ffc800", fontSize: "50px" }} />
+  <FontAwesomeIcon icon={faTwitter} style={{ color: "text-titleColor", fontSize: "25px" }} />
 );
 
 export {

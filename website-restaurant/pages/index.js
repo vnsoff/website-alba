@@ -7,6 +7,7 @@ import TeamPage from '../components/TeamPage';
 import Footer from '../components/Footer';
 import Banner from '../components/Banner';
 import Reservation from '../components/Reservation';
+import Timeline from '../components/Timeline';
 
 export default function Home() {
   return (
@@ -19,6 +20,9 @@ export default function Home() {
       </div>
       <div>
         <Options />
+      </div>
+      <div>
+        <Timeline />
       </div>
       <div>
         <TeamPage />
