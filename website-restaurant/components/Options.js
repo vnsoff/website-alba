@@ -50,7 +50,7 @@ function Options() {
   ];
 
   return (
-    <main className='bg-slate-100 mt-6 py-10 sm:py-20'>
+    <main id="options" className='bg-slate-100 mt-6 py-10 sm:py-20'>
       <div className='mx-8 sm:mx-20 mt-6 text-titleColor text-3xl sm:text-4xl mb-10 sm:mb-20'>
         <h3 className='uppercase text-titleColor flex justify-center p-2 font-bold mt-6'>
           La Nostra Cucina

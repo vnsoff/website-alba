@@ -2,6 +2,7 @@ import React from 'react';
 
 function Timeline() {
   return (
+    <main id='timeline'>
     <section className="page-section mt-8" id="about">
       <div>
         <div className='grid grid-cols-1 my-20 mx-auto font-bold text-4xl'> 
@@ -98,6 +99,7 @@ function Timeline() {
         </ul>
       </div>
     </section>
+    </main>
   );
 }
 

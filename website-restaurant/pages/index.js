@@ -8,34 +8,20 @@ import Footer from '../components/Footer';
 import Banner from '../components/Banner';
 import Reservation from '../components/Reservation';
 import Timeline from '../components/Timeline';
+import Banner2 from '../components/Banner2';
 
 export default function Home() {
   return (
     <div>
-      <div>
-        <Navbar />
-      </div>
-      <div>
-        <Services />
-      </div>
-      <div>
-        <Options />
-      </div>
-      <div>
-        <Timeline />
-      </div>
-      <div>
-        <TeamPage />
-      </div>
-      <div>
-        <Reservation />
-      </div>      
-      <div>
-        <Banner />
-      </div>
-      <div>
-        <Footer />
-      </div>
+      <Navbar />
+      <Banner2 />
+      <Services />
+      <Options />
+      <Timeline />
+      <TeamPage />
+      <Reservation />
+      <Banner />
+      <Footer />
     </div>
   );
 }

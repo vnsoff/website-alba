@@ -7,9 +7,11 @@ import teamData from './teamData';
 
 function TeamPage() {
   return (
-    <div className='flex justify-center mb-10'>
+    <main id="about">
+    <div className='flex justify-center pb-10'>
     <Team teamData={teamData}/>
     </div>
+    </main>
   );
 }
 

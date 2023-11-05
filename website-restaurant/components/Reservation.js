@@ -21,9 +21,9 @@ const Reservation = () => {
   };
 
   return (
-    <section className="page-section bg-slate-100 py-10">
+    <section id="reservation" className="page-section bg-slate-100 pb-20 pt-20">
       <div className="container mx-auto px-5">
-        <div className='container grid grid-cols-1 my-20 mx-auto font-bold text-4xl'> 
+        <div className='container grid grid-cols-1  mx-auto font-bold text-4xl'> 
         <h3 className='text-titleColor flex justify-center p-2 uppercase'>
         Reservations
         </h3>
