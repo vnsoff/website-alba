@@ -9,7 +9,7 @@ function ImageDescription({ imagePath, heading, description }) {
       </div>
       <div className="bg-white w-96 px-4 py-4 shadow-md ">
         <h3 className="text-2xl font-bold text-titleColor">{heading}</h3>
-        <p className="text-md text-descColor">{description}</p>
+        <p className="text-md text-descColor italic">{description}</p>
       </div>
     </div>
   );

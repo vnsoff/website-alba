@@ -18,7 +18,11 @@ function Footer() {
           <LinkedInIcon />
         </div>
         <div className='flex items-center  text-descColor justify-between py-6 mx-auto max-w-screen-xl gap-x-5'>
-          <Link id="link">Privacy Policy</Link>
+          <ul>
+            <li>
+              <Link href="/privacy">Privacy Policy</Link>
+            </li>
+          </ul>
         </div>
       </div>
     </footer>
