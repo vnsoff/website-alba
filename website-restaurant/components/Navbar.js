@@ -1,5 +1,3 @@
-// components/Navbar.js
-
 import React, { useState } from 'react';
 import 'styles/tailwind.css';
 import { XIcon as XMarkIcon, MenuAlt3Icon } from '@heroicons/react/outline';
@@ -15,7 +13,14 @@ const Navbar = () => {
 
   const navigateToSection = (path) => {
     router.push(path);
-    setIsMobile(false); // Close mobile menu after navigation
+    const sectionId = path.substring(1);
+    if (sectionId !== '/#') {
+      const section = document.getElementById(sectionId);
+      if (section) {
+        section.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+    setIsMobile(false);
   };
 
   return (
@@ -24,16 +29,11 @@ const Navbar = () => {
         backgroundImage: 'url("/images/header/header-bg.png")',
         minHeight: '800px'
       }}>
-        <nav className={`lg:mx-40 lg:px-40 top-5 inset-x-0 flex items-center justify-between p-6 ${isMobile ? 'bg-gray-800' : 'bg-gradient-to-b from-Stone-950'}`}>
-          <div className="container mx-5 lg:mx-auto flex items-center justify-between">
-            <div className="flex items-center">
-              {!isMobile && (
-                <button onClick={() => navigateToSection('#page-top')} aria-label="Go to top">
-                  <img src="/images/header/navbar-logo.png" alt="Logo" className="h-8" />
-                </button>
-              )}
-              {isMobile ? <br /> : null}
-            </div>
+        <nav className={`lg:mx-40 lg:px-40 top-0 inset-x-0 flex items-center justify-between p-6 ${isMobile ? 'bg-gray-800' : 'bg-gradient-to-b from-Stone-950'} sticky z-10`}>
+          <div className="container mx-5 lg:mx-auto flex items-center justify-between w-full">
+            <button onClick={() => navigateToSection('#page-top')} aria-label="Go to top">
+              <img src="/images/header/navbar-logo.png" alt="Logo" className="h-8" />
+            </button>
             <button
               className="text-white lg:hidden focus:outline-none"
               aria-label="Toggle navigation"
@@ -46,14 +46,14 @@ const Navbar = () => {
               )}
             </button>
             <div className={`text-stone-200 lg:flex lg:items-center lg:w-auto ${isMobile ? 'block' : 'hidden'}`}>
-              <ul>
+              <ul className="flex space-x-8">
                 <li>
-                  <button className="nav-link mr-5 lg:mr-10 transform transition-transform hover:scale-105" onClick={() => navigateToSection('/services')}>
+                  <button className="nav-link transform transition-transform hover:scale-105" onClick={() => navigateToSection('#services')}>
                     SERVICES
                   </button>
                 </li>
                 <li>
-                  <button className="nav-link mr-5 lg:mr-10 transform transition-transform hover:scale-105" onClick={() => navigateToSection('/our-cucina')}>
+                  <button className="nav-link transform transition-transform hover:scale-105" onClick={() => navigateToSection('#our-cucina')}>
                     LA NOSTRA CUCINA
                   </button>
                 </li>
