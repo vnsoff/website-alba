@@ -8,9 +8,9 @@ import teamData from './teamData';
 function TeamPage() {
   return (
     <main id="about">
-    <div className='flex justify-center pb-10'>
-    <Team teamData={teamData}/>
-    </div>
+      <div className='flex justify-center pb-10'>
+        <Team teamData={teamData}/>
+      </div>
     </main>
   );
 }
