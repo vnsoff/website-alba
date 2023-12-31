@@ -2,7 +2,6 @@
   "homepage": "https://vnsoff.github.io/Website_Alba/",
   "name": "website-alba",
   "version": "0.1.0",
-  "private": true,
   "scripts": {
     "dev": "next dev",
     "start": "next start",
