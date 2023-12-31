@@ -1,4 +1,9 @@
-// Example without specific configuration options
 module.exports = {
-    distDir: 'build',
-};
+    // other configurations
+    exportPathMap: function () {
+        return {
+            '/': { page: '/' },
+            // add other pages as needed
+        }
+    },
+}
