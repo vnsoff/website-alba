@@ -1,32 +1,78 @@
-// Keep this block
+// tailwind.config.js
+
 module.exports = {
   content: [
-    './pages/**/*.{js,ts,jsx,tsx}',
-    './components/**/*.{js,ts,jsx,tsx}',
+    "./src/**/*.{js,jsx,ts,tsx}",
+    "./public/index.html",
   ],
   theme: {
     extend: {
-      fontFamily: {
-        'sans': [
-          'Montserrat',
-          '-apple-system',
-          'BlinkMacSystemFont',
-          '"Segoe UI"',
-          'Roboto',
-          '"Helvetica Neue"',
-          'Arial',
-          'sans-serif',
-          '"Apple Color Emoji"',
-          '"Segoe UI Emoji"',
-          '"Segoe UI Symbol"',
-          '"Noto Color Emoji"',
-        ],
+      keyframes: {
+        shimmer: {
+            '0%%': {
+              transform: 'translateY(-20%)',
+            },
+            '50%': {
+              transform: 'translateY(20%)',
+            },
+            '100%': {
+              transform: 'translateY(0%)',
+            },
+        },
+        reverseShimmer: {
+            '0%': {
+              transform: 'translateY(20%)',
+            },
+            '50%': {
+              transform: 'translateY(-20%)',
+            },
+            '100%': {
+              transform: 'translateY(0%)',
+            },
+        },
+        'bounce-custom': {
+          '0%, 100%': {
+            transform: 'translateY(5%)',
+            animationTimingFunction: 'cubic-bezier(0.8, 0, 1, 1)',
+          },
+          '50%': {
+            transform: 'translateY(0)',
+            animationTimingFunction: 'cubic-bezier(0, 0, 0.2, 1)',
+          },
+        },
+        'bounce-custom-2': {
+          '0%, 100%': {
+            transform: 'translateY(50%)',
+            animationTimingFunction: 'cubic-bezier(0, 0, 1, 1)',
+          },
+          '50%': {
+            transform: 'translateY(0)',
+            animationTimingFunction: 'cubic-bezier(0, 0, 0.2, 1)',
+          },
+        },
       },
-      colors: {
-        'titleColor':'#212529',
-        'descColor':'#6c757d'
-      }
+      animation: {
+        'bounce-custom': 'bounce-custom 5s infinite',
+        'bounce-custom-2': 'bounce-custom-2 1s infinite',
+        shimmer: 'shimmer 2s ease-in-out infinite',
+        reverseShimmer: 'shimmer 2s ease-in-out infinite',
+      },
+      backgroundColor: {
+        'custom-bg-color': '#201e2b',
+        'custom-alt-color': '#292438',
+        purple: {
+          500: '#8a63e5',
+        },
+        indigo: {
+          500: '#6366f1',
+        },
+      },
+      textColor: {
+        'custom-color': '#242235',
+      },
     },
   },
-  plugins: [],
+  plugins: [
+    require('@material-tailwind/react'),
+  ],
 };
