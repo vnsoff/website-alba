@@ -5,7 +5,7 @@ import { TwitterIcon, FacebookIcon, LinkedInIcon } from './IconComponent';
 
 const Team = ({ teamData }) => {
   return (
-    <main id="about">
+      <main id="meet-the-monti">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           <div className='container grid grid-cols-1 my-8 sm:my-20 font-bold text-4xl uppercase'> 
