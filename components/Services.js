@@ -7,7 +7,7 @@ import 'styles/tailwind.css';
 function Services() {
   return (
     <main id="services">
-        <div className='container grid grid-cols-1 py-20 mx-auto font-bold text-4xl'> 
+        <div className='container grid grid-cols-1 pt-20 mx-auto font-bold text-4xl'>
           <h3 className='text-titleColor flex justify-center p-2'>
               SERVICES
           </h3>

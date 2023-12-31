@@ -28,7 +28,8 @@ const Reservation = () => {
         Reservations
         </h3>
         </div>
-
+        <br></br>
+        <br></br>
         <form id="contactForm" className="max-w-4xl mx-auto" onSubmit={handleSubmit}>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div>
