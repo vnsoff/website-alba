@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { DeliveryIcon, DriveThruIcon, ReservationIcon } from './IconComponent';
-import 'styles/tailwind.css';
+import "./styles/tailwind.css";
 
 function Services() {
   return (

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import 'styles/tailwind.css';
+import "./styles/tailwind.css";
 
 const Reservation = () => {
   const [formSubmitted, setFormSubmitted] = useState(false);

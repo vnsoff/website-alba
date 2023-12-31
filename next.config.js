@@ -1,7 +1,5 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {}
-
+// Example without specific configuration options
 module.exports = {
-    nextConfig,
     distDir: 'build',
+    // Other Next.js configuration options go here
 };
