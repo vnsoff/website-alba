@@ -2,7 +2,7 @@
 
 import React from 'react';
 import Image from 'next/image'; // Import Image from next/image
-import 'styles/tailwind.css';
+import '@/public/styles/tailwind.css';
 import { TwitterIcon, FacebookIcon, LinkedInIcon } from './IconComponent';
 
 const TeamMember = ({ name, role, imgSrc, twitterLink, facebookLink, linkedinLink }) => {

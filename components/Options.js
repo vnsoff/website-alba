@@ -1,5 +1,5 @@
 import React from 'react';
-import "./styles/tailwind.css";
+import '@/public/styles/tailwind.css';
 
 function ImageDescription({ imagePath, heading, description }) {
   return (

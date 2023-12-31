@@ -2,8 +2,8 @@
 
 import React from 'react';
 import Link from 'next/link';
-import { TwitterIcon, TelegramIcon, FacebookIcon, LinkedInIcon } from './IconComponent';
-import "./styles/tailwind.css";
+import { TelegramIcon, FacebookIcon, LinkedInIcon } from './IconComponent';
+import '@/public/styles/tailwind.css';
 
 function Footer() {
   return (

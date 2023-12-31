@@ -1,7 +1,7 @@
 // components/Privacy.js
 
 import React from 'react';
-import 'styles/tailwind.css';
+import '@/public/styles/tailwind.css';
 
 function PrivacyPolicy() {
   return (

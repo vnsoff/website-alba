@@ -1,7 +1,6 @@
 import React from 'react';
 import TeamMember from './TeamMember';
-import 'styles/tailwind.css';
-import { TwitterIcon, FacebookIcon, LinkedInIcon } from './IconComponent';
+import '@/public/styles/tailwind.css';
 
 const Team = ({ teamData }) => {
   return (

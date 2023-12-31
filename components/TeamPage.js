@@ -1,6 +1,6 @@
 // components/TeamPage.js
 
-import 'styles/tailwind.css';
+import '@/public/styles/tailwind.css';
 import React from 'react';
 import Team from './Team';
 import teamData from './teamData'; 

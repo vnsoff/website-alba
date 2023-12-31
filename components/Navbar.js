@@ -1,7 +1,7 @@
 //Navbar.js
 
 import React, { useState } from 'react';
-import "./styles/tailwind.css";
+import '@/public/styles/tailwind.css';
 import { XIcon as XMarkIcon, MenuAlt3Icon } from '@heroicons/react/outline';
 import { useRouter } from 'next/router';
 import Image from 'next/image';
