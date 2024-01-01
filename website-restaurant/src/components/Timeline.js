@@ -14,7 +14,7 @@ function Timeline() {
             <li className="mb-10 flex flex-row items-center justify-between">
               <div className="w-2/4 text-right p-5">
                 <div className="timeline-image">
-                  <img src="/images/about/2.png" alt="..." width={1920} height={1080} className="rounded-full mx-auto border-8 border-slate-200 w-48" />
+                  <img src={require('./images/about/2.png')} alt="..." width={1920} height={1080} className="rounded-full mx-auto border-8 border-slate-200 w-48" />
                 </div>
               </div>
               <div className="w-2/4 pr-20">
@@ -35,7 +35,7 @@ function Timeline() {
             <li className="mb-10 flex flex-row items-center justify-between">
               <div className="w-2/4 text-right p-5">
                 <div className="timeline-image">
-                  <img className="rounded-full mx-auto border-8 border-slate-200 w-48" src="/images/about/1.png" alt="..." />
+                  <img className="rounded-full mx-auto border-8 border-slate-200 w-48" src={require('./images/about/1.png')} alt="..." />
                 </div>
               </div>
               <div className="w-2/4 pr-20">
@@ -56,7 +56,7 @@ function Timeline() {
             <li className="mb-10 flex flex-row items-center justify-between">
               <div className="w-2/4 text-right p-5">
                 <div className="timeline-image">
-                  <img className="rounded-full mx-auto border-8 border-slate-200 w-48" src="/images/about/3.png" alt="..." />
+                  <img className="rounded-full mx-auto border-8 border-slate-200 w-48" src={require('./images/about/3.png')} alt="..." />
                 </div>
               </div>
               <div className="w-2/4 pr-20">
@@ -77,7 +77,7 @@ function Timeline() {
             <li className="mb-10 flex flex-row items-center justify-between">
               <div className="w-2/4 text-right p-5">
                 <div className="timeline-image">
-                  <img className="rounded-full mx-auto border-8 border-slate-200 w-48" src="/images/about/4.png" alt="..." />
+                  <img className="rounded-full mx-auto border-8 border-slate-200 w-48" src={require('./images/about/4.png')} alt="..." />
                 </div>
               </div>
               <div className="w-2/4 pr-20">

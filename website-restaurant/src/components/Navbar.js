@@ -25,7 +25,7 @@ const Navbar = () => {
       <nav className="lg:mx-0 lg:px-40 inset-x-0 flex flex-col lg:flex-row items-center justify-between p-6 z-40 bg-stone-900 sticky top-0">
         <div className="container mx-5 lg:mx-auto flex items-center justify-between w-full">
           <button onClick={() => navigateToSection('#page-top')} aria-label="Go to top">
-            <img src="/images/header/navbar-logo.png" alt="Logo" width={102} height={102} />
+            <img src={require('./images/header/navbar-logo.png')} alt="Logo" width={102} height={102} />
           </button>
           <button
               className="text-white lg:hidden focus:outline-none"

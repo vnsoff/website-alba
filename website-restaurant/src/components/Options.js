@@ -18,32 +18,32 @@ function ImageDescription({ imagePath, heading, description }) {
 function Options() {
   const imageDescriptions = [
     {
-      imagePath: '/images/food/1.png',
+      imagePath: require('./images/food/1.png'),
       heading: 'Traditional',
       description: `Savor the authentic flavors of Italy with our Traditional creations, where cherished family recipes are served with love and devotion to culinary heritage.`,
     },
     {
-      imagePath: '/images/food/2.png',
+      imagePath: require('./images/food/2.png'),
       heading: 'Modern Italian',
       description: `A contemporary twist on classic Italian dishes, blending traditional flavors with innovative cooking techniques and presentation.`,
     },
     {
-      imagePath: '/images/food/3.png',
+      imagePath: require('./images/food/3.png'),
       heading: 'Regional Delights',
       description: `Highlighting the diverse culinary traditions of different Italian regions, featuring specialties from Tuscany, Sicily, Naples, and more.`,
     },
     {
-      imagePath: '/images/food/4.png',
+      imagePath: require('./images/food/4.png'),
       heading: 'Wine Pairings',
       description: `Elevate your dining experience with our carefully crafted pasta dishes, expertly matched with a curated selection of fine wines, creating a harmonious symphony of flavors.`,
     },
     {
-      imagePath: '/images/food/5.png',
+      imagePath: require('./images/food/5.png'),
       heading: "Chef's Specials",
       description: `A rotating selection of signature dishes crafted by the head chef, offering unique and delightful surprises for adventurous diners.`,
     },
     {
-      imagePath: '/images/food/6.png',
+      imagePath: require('./images/food/6.png'),
       heading: 'Handcrafted Pasta',
       description: `Celebrating the art of pasta-making with an array of freshly made pasta dishes, each infused with distinctive flavors.`,
     },
