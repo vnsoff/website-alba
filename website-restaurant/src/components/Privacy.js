@@ -9,7 +9,7 @@ function PrivacyPolicy() {
       <h1 className="text-3xl font-bold mb-5">Privacy Policy</h1>
       <div className="h-96 overflow-y-scroll">
         <p>
-          {/* Your privacy policy text goes here */}
+          Privacy Policy
         </p>
       </div>
     </div>

@@ -4,100 +4,64 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="595e740d-af7f-4766-bca8-0e7bd6da7123" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/new/app/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new/app/globals.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new/app/layout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new/images/about/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new/images/about/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new/images/about/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new/images/about/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new/images/food/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new/images/food/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new/images/food/3.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new/images/food/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new/images/food/4.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new/images/food/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new/images/food/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new/images/food/6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new/images/food/6.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new/images/food/7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new/images/header/header-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new/images/header/navbar-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new/images/logos/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new/images/marketing/1.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new/images/marketing/banner1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new/images/team/1.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new/images/team/2.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new/images/team/3.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new/images/team/4.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new/styles/tailwind.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-restaurant/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-restaurant/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-restaurant/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-restaurant/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-restaurant/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-restaurant/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-restaurant/public/logo192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-restaurant/public/logo512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-restaurant/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-restaurant/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-restaurant/public/styles/tailwind.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-restaurant/src/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-restaurant/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-restaurant/src/App.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-restaurant/src/components/Banner.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-restaurant/src/components/Banner2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-restaurant/src/components/Footer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-restaurant/src/components/IconComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-restaurant/src/components/Navbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-restaurant/src/components/Options.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-restaurant/src/components/Privacy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-restaurant/src/components/Reservation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-restaurant/src/components/Services.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-restaurant/src/components/Team.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-restaurant/src/components/TeamMember.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-restaurant/src/components/TeamPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-restaurant/src/components/Timeline.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-restaurant/src/components/teamData.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-restaurant/src/images/about/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-restaurant/src/images/about/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-restaurant/src/images/about/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-restaurant/src/images/about/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-restaurant/src/images/food/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-restaurant/src/images/food/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-restaurant/src/images/food/3.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-restaurant/src/images/food/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-restaurant/src/images/food/4.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-restaurant/src/images/food/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-restaurant/src/images/food/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-restaurant/src/images/food/6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-restaurant/src/images/food/6.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-restaurant/src/images/food/7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-restaurant/src/images/header/header-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-restaurant/src/images/header/navbar-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-restaurant/src/images/logos/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-restaurant/src/images/marketing/1.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-restaurant/src/images/marketing/banner1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-restaurant/src/images/team/1.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-restaurant/src/images/team/2.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-restaurant/src/images/team/3.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-restaurant/src/images/team/4.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-restaurant/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-restaurant/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-restaurant/src/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-restaurant/src/reportWebVitals.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-restaurant/src/setupTests.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-restaurant/src/styles/tailwind.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/postcss.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" />
+    <list default="true" id="595e740d-af7f-4766-bca8-0e7bd6da7123" name="Changes" comment="Restructuring project">
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new/app/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new/app/globals.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new/app/layout.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new/images/about/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/website-restaurant/src/components/images/about/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new/images/about/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/website-restaurant/src/components/images/about/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new/images/about/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/website-restaurant/src/components/images/about/3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new/images/about/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/website-restaurant/src/components/images/about/4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new/images/food/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/website-restaurant/src/components/images/food/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new/images/food/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/website-restaurant/src/components/images/food/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new/images/food/3.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/website-restaurant/src/components/images/food/3.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new/images/food/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/website-restaurant/src/components/images/food/3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new/images/food/4.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/website-restaurant/src/components/images/food/4.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new/images/food/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/website-restaurant/src/components/images/food/4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new/images/food/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/website-restaurant/src/components/images/food/5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new/images/food/6.png" beforeDir="false" afterPath="$PROJECT_DIR$/website-restaurant/src/components/images/food/6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new/images/food/6.webp" beforeDir="false" afterPath="$PROJECT_DIR$/website-restaurant/src/components/images/food/6.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new/images/food/7.png" beforeDir="false" afterPath="$PROJECT_DIR$/website-restaurant/src/components/images/food/7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new/images/header/header-bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/website-restaurant/src/components/images/header/header-bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new/images/header/navbar-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/website-restaurant/src/components/images/header/navbar-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new/images/logos/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/website-restaurant/public/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new/images/marketing/1.webp" beforeDir="false" afterPath="$PROJECT_DIR$/website-restaurant/src/components/images/marketing/1.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new/images/marketing/banner1.png" beforeDir="false" afterPath="$PROJECT_DIR$/website-restaurant/src/components/images/marketing/banner1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new/images/team/1.webp" beforeDir="false" afterPath="$PROJECT_DIR$/website-restaurant/src/components/images/team/1.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new/images/team/2.webp" beforeDir="false" afterPath="$PROJECT_DIR$/website-restaurant/src/components/images/team/2.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new/images/team/3.webp" beforeDir="false" afterPath="$PROJECT_DIR$/website-restaurant/src/components/images/team/3.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new/images/team/4.webp" beforeDir="false" afterPath="$PROJECT_DIR$/website-restaurant/src/components/images/team/4.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new/styles/tailwind.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website-restaurant/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/website-restaurant/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website-restaurant/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/website-restaurant/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website-restaurant/src/components/Privacy.js" beforeDir="false" afterPath="$PROJECT_DIR$/website-restaurant/src/components/Privacy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website-restaurant/src/images/about/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website-restaurant/src/images/about/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website-restaurant/src/images/about/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website-restaurant/src/images/about/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website-restaurant/src/images/food/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website-restaurant/src/images/food/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website-restaurant/src/images/food/3.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website-restaurant/src/images/food/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website-restaurant/src/images/food/4.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website-restaurant/src/images/food/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website-restaurant/src/images/food/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website-restaurant/src/images/food/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website-restaurant/src/images/food/6.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website-restaurant/src/images/food/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website-restaurant/src/images/header/header-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website-restaurant/src/images/header/navbar-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website-restaurant/src/images/logos/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/website-restaurant/src/components/images/logos/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website-restaurant/src/images/marketing/1.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website-restaurant/src/images/marketing/banner1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website-restaurant/src/images/team/1.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website-restaurant/src/images/team/2.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website-restaurant/src/images/team/3.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website-restaurant/src/images/team/4.webp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,32 +95,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/Vanessa/PhpstormProjects/Website_Alba/website-restaurant/src/styles",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\PhpStorm 2023.2.3\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Vanessa/PhpstormProjects/Website_Alba/website-restaurant/public&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\PhpStorm 2023.2.3\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Vanessa\PhpstormProjects\Website_Alba\website-restaurant\public" />
       <recent name="C:\Users\Vanessa\PhpstormProjects\Website_Alba\website-restaurant\src\styles" />
       <recent name="C:\Users\Vanessa\PhpstormProjects\Website_Alba\website-restaurant\src" />
-      <recent name="C:\Users\Vanessa\PhpstormProjects\Website_Alba\website-restaurant\public" />
       <recent name="C:\Users\Vanessa\PhpstormProjects\website_portfolio\src\components" />
       <recent name="C:\Users\Vanessa\PhpstormProjects\website_portfolio\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Vanessa\PhpstormProjects\Website_Alba\website-restaurant\src\components" />
       <recent name="C:\Users\Vanessa\PhpstormProjects\Website_Alba\website-restaurant\src" />
       <recent name="C:\Users\Vanessa\PhpstormProjects\website_portfolio\public" />
       <recent name="C:\Users\Vanessa\PhpstormProjects\website_portfolio\src" />
@@ -179,7 +145,10 @@
       <workItem from="1703935991275" duration="23119000" />
       <workItem from="1704034377090" duration="133000" />
       <workItem from="1704051760352" duration="1048000" />
-      <workItem from="1704055323399" duration="5639000" />
+      <workItem from="1704055323399" duration="6423000" />
+      <workItem from="1704062142041" duration="4125000" />
+      <workItem from="1704122298093" duration="3095000" />
+      <workItem from="1704150203072" duration="3186000" />
     </task>
     <task id="LOCAL-00001" summary="Projects.js and ProjectCard.js components, Navbar.js fix">
       <option name="closed" value="true" />
@@ -269,7 +238,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704055501649</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Fix image paths">
+      <option name="closed" value="true" />
+      <created>1704067504341</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1704067504341</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,6 +264,7 @@
     <MESSAGE value="Projects.js component fix&#10;Footer.js component&#10;Skills.js component fix" />
     <MESSAGE value="Contact.js component" />
     <MESSAGE value="Deploy" />
+    <MESSAGE value="Fix image paths" />
     <MESSAGE value="Restructuring project" />
     <option name="LAST_COMMIT_MESSAGE" value="Restructuring project" />
   </component>
