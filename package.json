@@ -1,6 +1,6 @@
 {
-  "homepage": "https://vnsoff.github.io/Website_Alba/",
-  "name": "website-restaurant",
+  "homepage": "https://vnsoff.github.io/website-alba/",
+  "name": "website-alba",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -29,7 +29,8 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "postdeploy": "rm -rf build"
+    "postinstall": "react-scripts postinstall",
+    "start-local": "react-scripts start"
   },
   "eslintConfig": {
     "extends": [
