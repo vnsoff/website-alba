@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/website-alba/static/css/main.95edacb3.css",
+    "main.js": "/website-alba/static/js/main.8d74dc9b.js",
+    "static/media/header-bg.png": "/website-alba/static/media/header-bg.f973853ddcc9543538a9.png",
+    "static/media/banner1.png": "/website-alba/static/media/banner1.56cfbf92e8d04c48eda3.png",
+    "static/media/1.png": "/website-alba/static/media/1.d33f1dc70749143ee280.png",
+    "static/media/4.png": "/website-alba/static/media/4.84438825856cf9b6c174.png",
+    "static/media/3.png": "/website-alba/static/media/3.41679db7b9a61ce817cb.png",
+    "static/media/2.png": "/website-alba/static/media/2.b096f9bd90eea0966bc8.png",
+    "static/media/6.png": "/website-alba/static/media/6.a488a7323c07a10ed975.png",
+    "static/media/5.png": "/website-alba/static/media/5.eeb7061bc14864d56775.png",
+    "static/media/navbar-logo.png": "/website-alba/static/media/navbar-logo.7583212c7c1676bfb033.png",
+    "static/media/4.webp": "/website-alba/static/media/4.3f52f0d825dcf71ff263.webp",
+    "static/media/3.webp": "/website-alba/static/media/3.77b775e8a44fb7ffba72.webp",
+    "static/media/1.webp": "/website-alba/static/media/1.212f34c45f99abfe2430.webp",
+    "static/media/2.webp": "/website-alba/static/media/2.766590e8f19c1945e62d.webp",
+    "static/media/logo.svg": "/website-alba/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/website-alba/index.html",
+    "main.95edacb3.css.map": "/website-alba/static/css/main.95edacb3.css.map",
+    "main.8d74dc9b.js.map": "/website-alba/static/js/main.8d74dc9b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.95edacb3.css",
+    "static/js/main.8d74dc9b.js"
+  ]
+}
