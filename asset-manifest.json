@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/website-alba/static/css/main.95edacb3.css",
-    "main.js": "/website-alba/static/js/main.73c881e6.js",
+    "main.js": "/website-alba/static/js/main.0572d0b5.js",
     "static/media/1.png": "/website-alba/static/media/1.d33f1dc70749143ee280.png",
     "static/media/header-bg.jpg": "/website-alba/static/media/header-bg.f96ea3c6e9029cafcee5.jpg",
     "static/media/4.png": "/website-alba/static/media/4.84438825856cf9b6c174.png",
@@ -18,10 +18,10 @@
     "static/media/logo.svg": "/website-alba/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/website-alba/index.html",
     "main.95edacb3.css.map": "/website-alba/static/css/main.95edacb3.css.map",
-    "main.73c881e6.js.map": "/website-alba/static/js/main.73c881e6.js.map"
+    "main.0572d0b5.js.map": "/website-alba/static/js/main.0572d0b5.js.map"
   },
   "entrypoints": [
     "static/css/main.95edacb3.css",
-    "static/js/main.73c881e6.js"
+    "static/js/main.0572d0b5.js"
   ]
 }
