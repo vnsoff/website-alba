@@ -3,7 +3,7 @@ import '../styles/tailwind.css';
 
 function Timeline() {
   return (
-      <section className="page-section mt-8" id="about">
+      <section className="page-section mt-8" id="timeline">
         <div>
           <div className='grid grid-cols-1 my-20 mx-auto font-bold text-4xl'>
             <h3 className='text-titleColor flex justify-center p-2 uppercase'>

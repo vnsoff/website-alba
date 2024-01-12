@@ -5,7 +5,7 @@ import React from 'react';
 const Banner2 = () => {
   return (
       <div className="h-96 bg-cover bg-center" style={{
-        backgroundImage: `url(${require('./images/header/header-bg.png')})`,
+        backgroundImage: `url(${require('./images/header/header-bg.jpg')})`,
         minHeight: '800px'
       }}>
         <div className="flex items-center justify-center h-full lg:pl-20 lg:pr-20">

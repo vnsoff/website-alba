@@ -5,11 +5,11 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 function Banner() {
   const images = [
-    { src: require('./images/marketing/banner1.png'), link: 'https://www.linkedin.com/feed/' },
-    { src: require('./images/marketing/banner1.png'), link: 'https://www.linkedin.com/feed/' },
-    { src: require('./images/marketing/banner1.png'), link: 'https://www.linkedin.com/feed/' },
-    { src: require('./images/marketing/banner1.png'), link: 'https://www.linkedin.com/feed/' },
-    { src: require('./images/marketing/banner1.png'), link: 'https://www.linkedin.com/feed/' },
+    { src: require('./images/marketing/banner1.jpg'), link: 'https://www.linkedin.com/feed/' },
+    { src: require('./images/marketing/banner1.jpg'), link: 'https://www.linkedin.com/feed/' },
+    { src: require('./images/marketing/banner1.jpg'), link: 'https://www.linkedin.com/feed/' },
+    { src: require('./images/marketing/banner1.jpg'), link: 'https://www.linkedin.com/feed/' },
+    { src: require('./images/marketing/banner1.jpg'), link: 'https://www.linkedin.com/feed/' },
   ];
 
   return (
